@@ -8,10 +8,13 @@ public static void main(String[] args) {
 		}
 //		System.out.println();
 		for (int k = 1; k <= i; k++) {
-			
+			if(i == 1||i == 4||k == 1||k == i) {
 			System.out.print("* ");
+		} else {
+			System.out.print(" ");
+		}
 		}
 		System.out.println();
-		}
+}
 }
 }
